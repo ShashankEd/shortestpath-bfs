@@ -36,7 +36,7 @@ public class ShortestDistanceInNetwork {
         users.add("Vanika");
         users.add("Vashinka");
         users.add("Nathan");
-        // Creating graph for the users and their nneighbours in the network
+        // Creating graph for the users and their neighbours in the network
         addEdge(adj, 0, 1);
         addEdge(adj, 0, 2);
         addEdge(adj, 0, 5);
@@ -55,6 +55,7 @@ public class ShortestDistanceInNetwork {
         addEdge(adj, 12, 13);
         //if you are running in local machine, then uncomment the 
         //following and take input from scanner 
+        
         // System.out.println("Enter source: ");  
         // String sourceName= sc.nextLine(); 
         // System.out.println("Enter destination: ");  
