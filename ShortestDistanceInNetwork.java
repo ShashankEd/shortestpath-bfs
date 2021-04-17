@@ -55,7 +55,7 @@ public class ShortestDistanceInNetwork {
         addEdge(adj, 12, 13);
         //if you are running in local machine, then uncomment the 
         //following and take input from scanner 
-        
+
         // System.out.println("Enter source: ");  
         // String sourceName= sc.nextLine(); 
         // System.out.println("Enter destination: ");  
@@ -134,8 +134,8 @@ public class ShortestDistanceInNetwork {
         // predecessor[i] array stores predecessor of
         // i and distance array stores distance of i
         // from s
-        int pred[] = new int[v];
-        int dist[] = new int[v];
+        int pred[] = new int[v];// predecessor 
+        int dist[] = new int[v]; //destination
  
         if (BFS(adj, s, dest, v, pred, dist) == false) {
             System.out.println("Not connected vertices");
